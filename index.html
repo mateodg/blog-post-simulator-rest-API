@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\css\styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets\img\pcdibujo.png">
+    <title>The Blog Simulator</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="h1 text-center">The blocked blog simulator</h1>
+        </header>
+        <nav>
+            <ul class="navbar justify-content-center">
+                <li class="btn btn-light"><a href="#consulta">Consultas</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="container-fluid">   
+                <div class="row">
+                    <article class="col-md-10 text-center">
+                        <div class="row" id="listadoDePosts">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer>
+        <div class="row">
+            <div class="col-md-11 text-center">
+                <img src="assets\img\mouse-teclado.webp" class="img-fluid teclado" alt="Teclado y Mouse">
+            </div>
+            
+        </div>
+            <div class="row container-fluid">
+                <div class="col-md-8 text-center" id="consulta">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Nombre: </label>
+                            <input type="text" class="form-control" placeholder="Como te llamas?">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo: </label>
+                            <input type="email" class="form-control" placeholder="Ingresa tu correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="consulta">De que te gustaria que hablemos?</label>
+                            <textarea name="consukta" class="form-control" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-dark">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+    <script src="assets\js\app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
